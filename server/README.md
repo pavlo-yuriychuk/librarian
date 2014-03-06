@@ -1,6 +1,8 @@
-=Author
+Author
+======
 
-==Create new author
+Create new author
+-----------------
 
 Request:
 
@@ -14,34 +16,45 @@ POST
 }
 ~~~
 
+~~~
 X-Auth-Token: jlkjdslfkjsdlkfjlkdsfjlkdsjflkjslkdf
+~~~
 
 Response:
 
+~~~json
 {
  "id": "213hkj21h3kj1h2k3jh21kj3hk123",
  "name": "I me mine"
 }
+~~~
 
-==Get author
+Get author
+----------
 
 GET
 
 /v1/authors/<id>
 
+~~~json
 {
  "id": "213hkj21h3kj1h2k3jh21kj3hk123",
  "name": "I me mine"
 }
+~~~
 
+~~~
 X-Auth-Token: jlkjdslfkjsdlkfjlkdsfjlkdsjflkjslkdf
+~~~
 
-==Get all authors
+Get all authors
+---------------
 
 GET 
 
 /v1/authors
 
+~~~json
 [
   {
     "id": "213hkj21h3kj1h2k3jh21kj3hk123",
@@ -52,4 +65,8 @@ GET
     "name": "I me mine"
   }
 ]
+~~~
 
+~~~
+X-Auth-Token: jlkjdslfkjsdlkfjlkdsfjlkdsjflkjslkdf
+~~~
