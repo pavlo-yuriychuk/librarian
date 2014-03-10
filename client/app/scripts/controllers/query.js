@@ -14,4 +14,4 @@ angular.module('librarianApp')
         "authors": Authors.getInstance()
       }[value];
     };
-  });
+  }]);
